@@ -93,8 +93,11 @@ recipe (8000 iters, batch 32768 pixels over 63 views, L1, coarse-to-fine).
 | prbvolpath, mi39, fp1 (analytic), same recipe | 25.30 dB | 24.63 dB | 8.3 h |
 | SM linear, original mi3 paper code | 37.23 dB | — | 3.6 h |
 
-fp0 vs fp1 is the ray-intersection path (OptiX vs analytic AABB), orthogonal to
-the integrator. Measured per training step (batch 32768, primal spp 1024,
+fp0 vs fp1 is the ray-intersection path, orthogonal to the integrator.
+fp0 = OptiX, which is what stock Mitsuba always uses on CUDA variants;
+fp1 = an analytic-AABB scene patch of ours (single-box scenes only, NOT part
+of the upstream branch) that bypasses OptiX for both integrators. The
+stock-Mitsuba comparison is therefore the fp0 column. Measured per training step (batch 32768, primal spp 1024,
 adjoint spp 16, final 256^3 state):
 
 | step phase | fp1 SM lin | fp1 prbvolpath | fp0 SM lin | fp0 prbvolpath |
