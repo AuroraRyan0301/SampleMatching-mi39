@@ -93,11 +93,22 @@ recipe (8000 iters, batch 32768 pixels over 63 views, L1, coarse-to-fine).
 | prbvolpath, mi39, fp1 (analytic), same recipe | 25.30 dB | 24.63 dB | 8.3 h |
 | SM linear, original mi3 paper code | 37.23 dB | — | 3.6 h |
 
-(fp0 vs fp1 is the ray-intersection path, ~3x on this near-geometry-free scene
-for any integrator - the OptiX megakernel pays continuation-state spills around
-every trace call. The old-mi3 pipeline's remaining wall-clock edge is primal-transport
-throughput of its box-specialized integrator — 34.9 vs 17.4 Msamples/s —
-not the SM adjoint, which is faster on mi39.)
+fp0 vs fp1 is the ray-intersection path (OptiX vs analytic AABB), orthogonal to
+the integrator. Measured per training step (batch 32768, primal spp 1024,
+adjoint spp 16, final 256^3 state):
+
+| step phase | fp1 SM lin | fp1 prbvolpath | fp0 SM lin | fp0 prbvolpath |
+|---|---|---|---|---|
+| primal | 1.93 s | 3.21 s | 4.68 s | 8.63 s |
+| adjoint | 0.55 s | 0.52 s | 0.90 s | 0.70 s |
+| step | 2.48 s | 3.72 s | 5.57 s | 9.32 s |
+
+Adjoint cost is on par with prbvolpath in both modes; the wall-clock gaps are
+all primal-side (training renders 64x more primal than adjoint samples), where
+the fused C++ interaction walk wins — and wins more under OptiX, since fewer
+loop iterations mean fewer trace calls. The old-mi3 pipeline's remaining edge
+is primal-transport throughput of its box-specialized integrator (34.9 vs 17.4
+Msamples/s), not the SM adjoint.
 
 ## Results
 
