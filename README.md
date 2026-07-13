@@ -95,9 +95,10 @@ recipe (8000 iters, batch 32768 pixels over 63 views, L1, coarse-to-fine).
 
 fp0 vs fp1 is the ray-intersection path, orthogonal to the integrator.
 fp0 = OptiX, which is what stock Mitsuba always uses on CUDA variants;
-fp1 = an analytic-AABB scene patch of ours (single-box scenes only, NOT part
-of the upstream branch) that bypasses OptiX for both integrators. The
-stock-Mitsuba comparison is therefore the fp0 column. Measured per training step (batch 32768, primal spp 1024,
+fp1 = our analytic-AABB scene fast path (single-box scenes only; present on
+the fork branch as an opt-in flag `use_bbox_fast_path`, default off, and not
+intended for the eventual upstream PR) that bypasses OptiX for both
+integrators. The stock-Mitsuba comparison is therefore the fp0 column. Measured per training step (batch 32768, primal spp 1024,
 adjoint spp 16, final 256^3 state):
 
 | step phase | fp1 SM lin | fp1 prbvolpath | fp0 SM lin | fp0 prbvolpath |
