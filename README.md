@@ -90,7 +90,8 @@ recipe (8000 iters, batch 32768 pixels over 63 views, L1, coarse-to-fine).
 |---|---|---|---|
 | SM linear, mi39, fp1 (analytic) | 37.94 dB | 35.56 dB | 6.7 h |
 | SM linear, mi39, fp0 (OptiX) | 37.97 dB | 35.67 dB | 19.0 h |
-| prbvolpath, mi39 (stock, OptiX), same recipe | 25.30 dB | 24.63 dB | ~20.7 h* |
+| **prbvolpath, mi39 (stock, OptiX)** — primary baseline | 25.30 dB | 24.63 dB | ~20.7 h* |
+| prbvolpath, mi39 + analytic fast path (fp1, non-stock) | 25.30 dB | 24.63 dB | 8.3 h |
 | SM linear, original mi3 paper code | 37.23 dB | — | 3.6 h |
 
 fp0 vs fp1 is the ray-intersection path, orthogonal to the integrator.
@@ -101,15 +102,20 @@ intended for the eventual upstream PR) that bypasses OptiX for both
 integrators. The stock-Mitsuba comparison is therefore the fp0 column. Measured per training step (batch 32768, primal spp 1024,
 adjoint spp 16, final 256^3 state):
 
-| step phase | SM lin, fp1 (fast path) | SM lin, fp0 (OptiX) | prbvolpath (stock, OptiX) |
-|---|---|---|---|
-| primal | 1.93 s | 4.68 s | 8.63 s |
-| adjoint | 0.55 s | 0.90 s | 0.70 s |
-| step | 2.48 s | 5.57 s | 9.32 s |
+| step phase | SM lin, OptiX | **prbvolpath, stock OptiX** | SM lin, fast path | prbvolpath + fast path |
+|---|---|---|---|---|
+| primal | 4.68 s | 8.63 s | 1.93 s | 3.21 s |
+| adjoint | 0.90 s | 0.70 s | 0.55 s | 0.52 s |
+| step | **5.57 s** | **9.32 s** | 2.48 s | 3.72 s |
 
-\* prbvolpath wall clock = measured stock-OptiX step time x 8000 iterations;
-PSNR is from the same-recipe run (the intersection backend does not change
-the estimator).
+The primary comparison is the two OptiX columns (stock Mitsuba runs OptiX on
+CUDA variants unconditionally): SM linear is 1.7x faster per training step.
+The fast-path columns apply our non-stock analytic-AABB scene flag to BOTH
+integrators and are shown for completeness.
+
+\* stock-OptiX prbvolpath wall clock = measured step time x 8000 iterations
+(full run in progress); PSNR from the same-recipe run — the intersection
+backend does not change the estimator.
 
 Adjoint cost is on par with prbvolpath in both modes; the wall-clock gaps are
 all primal-side (training renders 64x more primal than adjoint samples), where
