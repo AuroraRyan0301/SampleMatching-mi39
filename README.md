@@ -90,10 +90,12 @@ recipe (8000 iters, batch 32768 pixels over 63 views, L1, coarse-to-fine).
 |---|---|---|---|
 | SM linear, mi39, fp1 (analytic) | 37.94 dB | 35.56 dB | 6.7 h |
 | SM linear, mi39, fp0 (OptiX) | 37.97 dB | 35.67 dB | 19.0 h |
-| prbvolpath, mi39, same recipe | 25.30 dB | 24.63 dB | 8.3 h |
+| prbvolpath, mi39, fp1 (analytic), same recipe | 25.30 dB | 24.63 dB | 8.3 h |
 | SM linear, original mi3 paper code | 37.23 dB | — | 3.6 h |
 
-(The old-mi3 pipeline's remaining wall-clock edge is primal-transport
+(fp0 vs fp1 is the ray-intersection path, ~3x on this near-geometry-free scene
+for any integrator - the OptiX megakernel pays continuation-state spills around
+every trace call. The old-mi3 pipeline's remaining wall-clock edge is primal-transport
 throughput of its box-specialized integrator — 34.9 vs 17.4 Msamples/s —
 not the SM adjoint, which is faster on mi39.)
 
