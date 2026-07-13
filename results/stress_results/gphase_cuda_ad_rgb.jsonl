@@ -1,0 +1,22 @@
+{"cell": "gphase/hg0.5_quad_gphase", "status": "FAIL", "ad": "-2.4550e+03", "se": "2.5e+00", "fd": "-4.4275e+01", "ratio": "55.450"}
+{"cell": "gphase/hg0.5_lin_gphase", "status": "FAIL", "ad": "-2.4550e+03", "se": "2.5e+00", "fd": "-4.4275e+01", "ratio": "55.450"}
+{"cell": "gphase/hg0.5_k4_gphase", "status": "FAIL", "ad": "-2.4550e+03", "se": "2.5e+00", "fd": "-4.4275e+01", "ratio": "55.450"}
+{"cell": "gphase/hg0.5_prb_gphase", "status": "PASS", "ad": "-4.2508e+01", "se": "3.1e+00", "fd": "-4.4275e+01", "ratio": "0.960"}
+{"cell": "gphase/hg-0.3_quad_gphase", "status": "FAIL", "ad": "-8.1807e+02", "se": "8.5e-01", "fd": "3.9355e+01", "ratio": "-20.787"}
+{"cell": "gphase/hg-0.3_lin_gphase", "status": "FAIL", "ad": "-8.1807e+02", "se": "8.5e-01", "fd": "3.9355e+01", "ratio": "-20.787"}
+{"cell": "gphase/hg-0.3_k4_gphase", "status": "FAIL", "ad": "-8.1807e+02", "se": "8.5e-01", "fd": "3.9355e+01", "ratio": "-20.787"}
+{"cell": "gphase/hg-0.3_prb_gphase", "status": "PASS", "ad": "4.1198e+01", "se": "1.2e+00", "fd": "3.9355e+01", "ratio": "1.047"}
+{"cell": "gphase/hg0.5_quad_primal", "status": "PASS", "rel": "3.28e-05", "z": "0.4"}
+{"cell": "gphase/hg0.5_quad_gphase", "status": "PASS", "ad": "-3.9561e+01", "se": "3.0e+00", "fd": "-4.4275e+01", "ratio": "0.894"}
+{"cell": "gphase/hg0.5_lin_primal", "status": "PASS", "rel": "3.28e-05", "z": "0.4"}
+{"cell": "gphase/hg0.5_lin_gphase", "status": "PASS", "ad": "-3.9561e+01", "se": "3.0e+00", "fd": "-4.4275e+01", "ratio": "0.894"}
+{"cell": "gphase/hg0.5_k4_primal", "status": "PASS", "rel": "3.28e-05", "z": "0.4"}
+{"cell": "gphase/hg0.5_k4_gphase", "status": "PASS", "ad": "-3.9561e+01", "se": "3.0e+00", "fd": "-4.4275e+01", "ratio": "0.894"}
+{"cell": "gphase/hg0.5_prb_gphase", "status": "PASS", "ad": "-4.2508e+01", "se": "3.1e+00", "fd": "-4.4275e+01", "ratio": "0.960"}
+{"cell": "gphase/hg-0.3_quad_primal", "status": "PASS", "rel": "7.03e-05", "z": "0.9"}
+{"cell": "gphase/hg-0.3_quad_gphase", "status": "PASS", "ad": "4.0105e+01", "se": "1.3e+00", "fd": "3.9355e+01", "ratio": "1.019"}
+{"cell": "gphase/hg-0.3_lin_primal", "status": "PASS", "rel": "7.03e-05", "z": "0.9"}
+{"cell": "gphase/hg-0.3_lin_gphase", "status": "PASS", "ad": "4.0105e+01", "se": "1.3e+00", "fd": "3.9355e+01", "ratio": "1.019"}
+{"cell": "gphase/hg-0.3_k4_primal", "status": "PASS", "rel": "7.03e-05", "z": "0.9"}
+{"cell": "gphase/hg-0.3_k4_gphase", "status": "PASS", "ad": "4.0105e+01", "se": "1.3e+00", "fd": "3.9355e+01", "ratio": "1.019"}
+{"cell": "gphase/hg-0.3_prb_gphase", "status": "PASS", "ad": "4.1198e+01", "se": "1.2e+00", "fd": "3.9355e+01", "ratio": "1.047"}

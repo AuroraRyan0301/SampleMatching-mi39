@@ -1,0 +1,72 @@
+{"cell": "boundary/box_quad_primal", "status": "PASS", "rel": "6.44e-05", "z": "0.8"}
+{"cell": "boundary/box_quad_gsigma", "status": "PASS", "ad": "-1.2528e+03", "se": "1.7e+00", "fd": "-1.2506e+03", "ratio": "1.002"}
+{"cell": "boundary/box_lin_primal", "status": "PASS", "rel": "6.44e-05", "z": "0.8"}
+{"cell": "boundary/box_lin_gsigma", "status": "PASS", "ad": "-1.2543e+03", "se": "2.7e+00", "fd": "-1.2506e+03", "ratio": "1.003"}
+{"cell": "boundary/box_k4_primal", "status": "PASS", "rel": "6.44e-05", "z": "0.8"}
+{"cell": "boundary/box_k4_gsigma", "status": "PASS", "ad": "-1.2495e+03", "se": "2.0e+00", "fd": "-1.2506e+03", "ratio": "0.999"}
+{"cell": "boundary/sphere_quad_primal", "status": "PASS", "rel": "1.17e-04", "z": "2.5"}
+{"cell": "boundary/sphere_quad_gsigma", "status": "PASS", "ad": "-8.8669e+02", "se": "1.8e+00", "fd": "-8.8065e+02", "ratio": "1.007"}
+{"cell": "boundary/sphere_lin_primal", "status": "PASS", "rel": "1.17e-04", "z": "2.5"}
+{"cell": "boundary/sphere_lin_gsigma", "status": "PASS", "ad": "-8.8924e+02", "se": "1.8e+00", "fd": "-8.8064e+02", "ratio": "1.010"}
+{"cell": "boundary/sphere_k4_primal", "status": "PASS", "rel": "1.17e-04", "z": "2.5"}
+{"cell": "boundary/sphere_k4_gsigma", "status": "PASS", "ad": "-8.8547e+02", "se": "2.0e+00", "fd": "-8.8064e+02", "ratio": "1.005"}
+{"cell": "boundary/torus_quad_primal", "status": "PASS", "rel": "8.55e-05", "z": "1.2"}
+{"cell": "boundary/torus_quad_gsigma", "status": "PASS", "ad": "-6.6764e+02", "se": "8.4e-01", "fd": "-6.6216e+02", "ratio": "1.008"}
+{"cell": "boundary/torus_lin_primal", "status": "PASS", "rel": "8.55e-05", "z": "1.2"}
+{"cell": "boundary/torus_lin_gsigma", "status": "PASS", "ad": "-6.6692e+02", "se": "9.1e-01", "fd": "-6.6216e+02", "ratio": "1.007"}
+{"cell": "boundary/torus_k4_primal", "status": "PASS", "rel": "8.55e-05", "z": "1.2"}
+{"cell": "boundary/torus_k4_gsigma", "status": "PASS", "ad": "-6.6740e+02", "se": "8.6e-01", "fd": "-6.6216e+02", "ratio": "1.008"}
+{"cell": "boundary/box_quad_primal", "status": "PASS", "rel": "6.44e-05", "z": "0.8"}
+{"cell": "boundary/box_quad_gsigma", "status": "PASS", "ad": "-1.2526e+03", "se": "2.2e+00", "fd": "-1.2506e+03", "ratio": "1.002"}
+{"cell": "boundary/box_lin_primal", "status": "PASS", "rel": "6.44e-05", "z": "0.8"}
+{"cell": "boundary/box_lin_gsigma", "status": "PASS", "ad": "-1.2536e+03", "se": "2.7e+00", "fd": "-1.2506e+03", "ratio": "1.002"}
+{"cell": "boundary/box_k4_primal", "status": "PASS", "rel": "6.44e-05", "z": "0.8"}
+{"cell": "boundary/box_k4_gsigma", "status": "PASS", "ad": "-1.2495e+03", "se": "2.0e+00", "fd": "-1.2506e+03", "ratio": "0.999"}
+{"cell": "boundary/sphere_quad_primal", "status": "PASS", "rel": "1.17e-04", "z": "2.5"}
+{"cell": "boundary/sphere_quad_gsigma", "status": "PASS", "ad": "-8.8674e+02", "se": "1.8e+00", "fd": "-8.8063e+02", "ratio": "1.007"}
+{"cell": "boundary/sphere_lin_primal", "status": "PASS", "rel": "1.17e-04", "z": "2.5"}
+{"cell": "boundary/sphere_lin_gsigma", "status": "PASS", "ad": "-8.8894e+02", "se": "2.1e+00", "fd": "-8.8064e+02", "ratio": "1.009"}
+{"cell": "boundary/sphere_k4_primal", "status": "PASS", "rel": "1.17e-04", "z": "2.5"}
+{"cell": "boundary/sphere_k4_gsigma", "status": "PASS", "ad": "-8.8547e+02", "se": "2.0e+00", "fd": "-8.8063e+02", "ratio": "1.006"}
+{"cell": "boundary/torus_quad_primal", "status": "PASS", "rel": "8.56e-05", "z": "1.2"}
+{"cell": "boundary/torus_quad_gsigma", "status": "PASS", "ad": "-6.6709e+02", "se": "8.5e-01", "fd": "-6.6217e+02", "ratio": "1.007"}
+{"cell": "boundary/torus_lin_primal", "status": "PASS", "rel": "8.55e-05", "z": "1.2"}
+{"cell": "boundary/torus_lin_gsigma", "status": "PASS", "ad": "-6.6695e+02", "se": "9.4e-01", "fd": "-6.6217e+02", "ratio": "1.007"}
+{"cell": "boundary/torus_k4_primal", "status": "PASS", "rel": "8.55e-05", "z": "1.2"}
+{"cell": "boundary/torus_k4_gsigma", "status": "PASS", "ad": "-6.6740e+02", "se": "8.6e-01", "fd": "-6.6217e+02", "ratio": "1.008"}
+{"cell": "boundary/box_quad_primal", "status": "PASS", "rel": "6.44e-05", "z": "0.8"}
+{"cell": "boundary/box_quad_gsigma", "status": "PASS", "ad": "-1.2544e+03", "se": "2.1e+00", "fd": "-1.2506e+03", "ratio": "1.003"}
+{"cell": "boundary/box_lin_primal", "status": "PASS", "rel": "6.44e-05", "z": "0.8"}
+{"cell": "boundary/box_lin_gsigma", "status": "PASS", "ad": "-1.2536e+03", "se": "2.7e+00", "fd": "-1.2506e+03", "ratio": "1.002"}
+{"cell": "boundary/box_k4_primal", "status": "PASS", "rel": "6.44e-05", "z": "0.8"}
+{"cell": "boundary/box_k4_gsigma", "status": "PASS", "ad": "-1.2495e+03", "se": "2.0e+00", "fd": "-1.2506e+03", "ratio": "0.999"}
+{"cell": "boundary/sphere_quad_primal", "status": "PASS", "rel": "1.17e-04", "z": "2.5"}
+{"cell": "boundary/sphere_quad_gsigma", "status": "PASS", "ad": "-8.8636e+02", "se": "1.8e+00", "fd": "-8.8063e+02", "ratio": "1.007"}
+{"cell": "boundary/sphere_lin_primal", "status": "PASS", "rel": "1.17e-04", "z": "2.5"}
+{"cell": "boundary/sphere_lin_gsigma", "status": "PASS", "ad": "-8.8870e+02", "se": "2.1e+00", "fd": "-8.8063e+02", "ratio": "1.009"}
+{"cell": "boundary/sphere_k4_primal", "status": "PASS", "rel": "1.17e-04", "z": "2.5"}
+{"cell": "boundary/sphere_k4_gsigma", "status": "PASS", "ad": "-8.8547e+02", "se": "2.0e+00", "fd": "-8.8063e+02", "ratio": "1.006"}
+{"cell": "boundary/torus_quad_primal", "status": "PASS", "rel": "8.56e-05", "z": "1.2"}
+{"cell": "boundary/torus_quad_gsigma", "status": "PASS", "ad": "-6.6713e+02", "se": "8.4e-01", "fd": "-6.6217e+02", "ratio": "1.007"}
+{"cell": "boundary/torus_lin_primal", "status": "PASS", "rel": "8.55e-05", "z": "1.2"}
+{"cell": "boundary/torus_lin_gsigma", "status": "PASS", "ad": "-6.6726e+02", "se": "9.5e-01", "fd": "-6.6217e+02", "ratio": "1.008"}
+{"cell": "boundary/torus_k4_primal", "status": "PASS", "rel": "8.55e-05", "z": "1.2"}
+{"cell": "boundary/torus_k4_gsigma", "status": "PASS", "ad": "-6.6740e+02", "se": "8.6e-01", "fd": "-6.6217e+02", "ratio": "1.008"}
+{"cell": "boundary/box_quad_primal", "status": "PASS", "rel": "6.44e-05", "z": "0.8"}
+{"cell": "boundary/box_quad_gsigma", "status": "PASS", "ad": "-1.2524e+03", "se": "2.0e+00", "fd": "-1.2506e+03", "ratio": "1.001"}
+{"cell": "boundary/box_lin_primal", "status": "PASS", "rel": "6.44e-05", "z": "0.8"}
+{"cell": "boundary/box_lin_gsigma", "status": "PASS", "ad": "-1.2544e+03", "se": "2.7e+00", "fd": "-1.2506e+03", "ratio": "1.003"}
+{"cell": "boundary/box_k4_primal", "status": "PASS", "rel": "6.45e-05", "z": "0.8"}
+{"cell": "boundary/box_k4_gsigma", "status": "PASS", "ad": "-1.2495e+03", "se": "2.0e+00", "fd": "-1.2506e+03", "ratio": "0.999"}
+{"cell": "boundary/sphere_quad_primal", "status": "PASS", "rel": "1.17e-04", "z": "2.5"}
+{"cell": "boundary/sphere_quad_gsigma", "status": "PASS", "ad": "-8.8673e+02", "se": "1.8e+00", "fd": "-8.8064e+02", "ratio": "1.007"}
+{"cell": "boundary/sphere_lin_primal", "status": "PASS", "rel": "1.17e-04", "z": "2.5"}
+{"cell": "boundary/sphere_lin_gsigma", "status": "PASS", "ad": "-8.9101e+02", "se": "2.3e+00", "fd": "-8.8063e+02", "ratio": "1.012"}
+{"cell": "boundary/sphere_k4_primal", "status": "PASS", "rel": "1.17e-04", "z": "2.5"}
+{"cell": "boundary/sphere_k4_gsigma", "status": "PASS", "ad": "-8.8547e+02", "se": "2.0e+00", "fd": "-8.8064e+02", "ratio": "1.005"}
+{"cell": "boundary/torus_quad_primal", "status": "PASS", "rel": "8.55e-05", "z": "1.2"}
+{"cell": "boundary/torus_quad_gsigma", "status": "PASS", "ad": "-6.6724e+02", "se": "8.2e-01", "fd": "-6.6217e+02", "ratio": "1.008"}
+{"cell": "boundary/torus_lin_primal", "status": "PASS", "rel": "8.55e-05", "z": "1.2"}
+{"cell": "boundary/torus_lin_gsigma", "status": "PASS", "ad": "-6.6720e+02", "se": "9.3e-01", "fd": "-6.6216e+02", "ratio": "1.008"}
+{"cell": "boundary/torus_k4_primal", "status": "PASS", "rel": "8.56e-05", "z": "1.2"}
+{"cell": "boundary/torus_k4_gsigma", "status": "PASS", "ad": "-6.6740e+02", "se": "8.6e-01", "fd": "-6.6216e+02", "ratio": "1.008"}

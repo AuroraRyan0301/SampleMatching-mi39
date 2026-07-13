@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<scene version="3.0.0">
+	<default name="integrator" value="volpath" />
+	<default name="spp" value="4096" />
+	<default name="max_depth" value="64" />
+    <default name="medium_scale" value="60.0"/>
+    <default name="medium_fixed_max" value="false"/>
+    <default name="majorant_resolution_factor" value="8"/>
+    <default name="density_activation" value="none"/>
+
+    <include filename="./common.xml"/>
+    <default name="majorant_factor" value="1.3"/>
+
+
+    <medium type="heterogeneous" id="cloud">
+        <float name="scale" value="$medium_scale"/>
+        <volume name="sigma_t" type="gridvolume">
+            <boolean name="accel" value="false"/>
+            <string name="filename" value="bunny_cloud_512_rgb_unitbbox.vol"/>
+            <boolean name="use_grid_bbox" value="true"/>
+            <!--boolean name="fixed_max" value="$medium_fixed_max"/-->
+            <transform name="to_world">
+                <scale x="2" y="2" z="2"/>
+                <translate x="-1" y="-1" z="-1"/>
+            </transform>
+        </volume>
+        <!-- <phase type="hg">
+            <float name="g" value="0.877"/>
+        </phase> -->
+        <volume name="albedo" type="gridvolume">
+            <boolean name="accel" value="false"/>
+            <string name="filename" value="albedo.vol"/>
+            <boolean name="use_grid_bbox" value="true"/>
+             <transform name="to_world">
+                <translate x="-0.5" y="-0.5" z="-0.5"/>
+                <scale x="10" y="10" z="10"/>
+            </transform>
+        </volume>
+        <boolean name="sample_emitters" value="true"/>
+        <boolean name="has_spectral_extinction" value="false"/>
+        <!--integer name="majorant_resolution_factor" value="$majorant_resolution_factor"/-->
+    </medium>
+
+    <shape type="obj">
+        <string name="filename" value="meshes/cube_unit.obj"/>
+        <bsdf type="null"/>
+        <ref id="cloud" name="interior"/>
+
+        <transform name="to_world">
+            <scale value="2.0, 2.0, 2.0"/>
+            <translate value="-1.0, -1.0, -1.0"/>
+            <!-- <scale value="2.0, 2.0, 2.0"/> -->
+        </transform>
+    </shape>
+</scene>

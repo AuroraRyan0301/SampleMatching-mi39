@@ -1,0 +1,30 @@
+{"cell": "emitter/constant_quad_primal", "status": "PASS", "rel": "6.44e-05", "z": "0.8"}
+{"cell": "emitter/constant_quad_gsigma", "status": "PASS", "ad": "-1.2525e+03", "se": "2.1e+00", "fd": "-1.2506e+03", "ratio": "1.002"}
+{"cell": "emitter/constant_lin_primal", "status": "PASS", "rel": "6.44e-05", "z": "0.8"}
+{"cell": "emitter/constant_lin_gsigma", "status": "PASS", "ad": "-1.2553e+03", "se": "2.7e+00", "fd": "-1.2506e+03", "ratio": "1.004"}
+{"cell": "emitter/constant_k4_primal", "status": "PASS", "rel": "6.44e-05", "z": "0.8"}
+{"cell": "emitter/constant_k4_gsigma", "status": "PASS", "ad": "-1.2495e+03", "se": "2.0e+00", "fd": "-1.2506e+03", "ratio": "0.999"}
+{"cell": "emitter/envmap_quad_primal", "status": "PASS", "rel": "2.92e-06", "z": "0.0"}
+{"cell": "emitter/envmap_quad_gsigma", "status": "PASS", "ad": "-1.2538e+03", "se": "2.2e+00", "fd": "-1.2436e+03", "ratio": "1.008"}
+{"cell": "emitter/envmap_lin_primal", "status": "PASS", "rel": "2.92e-06", "z": "0.0"}
+{"cell": "emitter/envmap_lin_gsigma", "status": "PASS", "ad": "-1.2542e+03", "se": "2.6e+00", "fd": "-1.2436e+03", "ratio": "1.009"}
+{"cell": "emitter/envmap_k4_primal", "status": "PASS", "rel": "2.94e-06", "z": "0.0"}
+{"cell": "emitter/envmap_k4_gsigma", "status": "PASS", "ad": "-1.2515e+03", "se": "2.1e+00", "fd": "-1.2436e+03", "ratio": "1.006"}
+{"cell": "emitter/area_out_quad_primal", "status": "PASS", "rel": "5.07e-04", "z": "0.6"}
+{"cell": "emitter/area_out_quad_gsigma", "status": "PASS", "ad": "1.1987e+02", "se": "1.4e+00", "fd": "1.1660e+02", "ratio": "1.028"}
+{"cell": "emitter/area_out_lin_primal", "status": "PASS", "rel": "5.07e-04", "z": "0.6"}
+{"cell": "emitter/area_out_lin_gsigma", "status": "PASS", "ad": "1.1840e+02", "se": "1.4e+00", "fd": "1.1660e+02", "ratio": "1.015"}
+{"cell": "emitter/area_out_k4_primal", "status": "PASS", "rel": "5.07e-04", "z": "0.6"}
+{"cell": "emitter/area_out_k4_gsigma", "status": "PASS", "ad": "1.2171e+02", "se": "1.3e+00", "fd": "1.1660e+02", "ratio": "1.044"}
+{"cell": "emitter/area_in_quad_primal", "status": "PASS", "rel": "1.72e-03", "z": "0.4"}
+{"cell": "emitter/area_in_quad_gsigma", "status": "PASS", "ad": "-6.7854e+02", "se": "1.5e+01", "fd": "-6.7124e+02", "ratio": "1.011"}
+{"cell": "emitter/area_in_lin_primal", "status": "PASS", "rel": "1.72e-03", "z": "0.4"}
+{"cell": "emitter/area_in_lin_gsigma", "status": "PASS", "ad": "-6.6682e+02", "se": "1.7e+01", "fd": "-6.7124e+02", "ratio": "0.993"}
+{"cell": "emitter/area_in_k4_primal", "status": "PASS", "rel": "1.72e-03", "z": "0.4"}
+{"cell": "emitter/area_in_k4_gsigma", "status": "PASS", "ad": "-6.6795e+02", "se": "1.4e+01", "fd": "-6.7124e+02", "ratio": "0.995"}
+{"cell": "emitter/point_quad_primal", "status": "PASS", "rel": "5.26e-04", "z": "0.7"}
+{"cell": "emitter/point_quad_gsigma", "status": "PASS", "ad": "1.2729e+02", "se": "7.3e-01", "fd": "1.2795e+02", "ratio": "0.995"}
+{"cell": "emitter/point_lin_primal", "status": "PASS", "rel": "5.26e-04", "z": "0.7"}
+{"cell": "emitter/point_lin_gsigma", "status": "PASS", "ad": "1.2717e+02", "se": "8.5e-01", "fd": "1.2795e+02", "ratio": "0.994"}
+{"cell": "emitter/point_k4_primal", "status": "PASS", "rel": "5.26e-04", "z": "0.7"}
+{"cell": "emitter/point_k4_gsigma", "status": "PASS", "ad": "1.2972e+02", "se": "6.7e-01", "fd": "1.2795e+02", "ratio": "1.014"}

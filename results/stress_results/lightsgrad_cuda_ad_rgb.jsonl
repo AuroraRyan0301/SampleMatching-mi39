@@ -1,0 +1,7 @@
+{"cell": "lightsgrad/constant_quad_gradiance", "status": "PASS", "key": "light.radiance.value", "ad": "1.0186e+04", "fd": "1.0187e+04", "se": "1.5e+00"}
+{"cell": "lightsgrad/constant_lin_gradiance", "status": "PASS", "key": "light.radiance.value", "ad": "1.0186e+04", "fd": "1.0187e+04", "se": "1.5e+00"}
+{"cell": "lightsgrad/constant_k4_gradiance", "status": "PASS", "key": "light.radiance.value", "ad": "1.0186e+04", "fd": "1.0187e+04", "se": "1.5e+00"}
+{"cell": "lightsgrad/area_out_quad_gradiance", "status": "PASS", "key": "light.emitter.radiance.value", "ad": "9.6674e+01", "fd": "9.6589e+01", "se": "1.5e-01"}
+{"cell": "lightsgrad/area_out_lin_gradiance", "status": "PASS", "key": "light.emitter.radiance.value", "ad": "9.6674e+01", "fd": "9.6588e+01", "se": "1.5e-01"}
+{"cell": "lightsgrad/area_out_k4_gradiance", "status": "PASS", "key": "light.emitter.radiance.value", "ad": "9.6674e+01", "fd": "9.6589e+01", "se": "1.5e-01"}
+{"cell": "lightsgrad/area_pos_quad", "status": "WARN", "note": "attached emitter geometry makes the upstream NEE loop demand max_iterations; geometric grads are documented-unsupported for the prbvolpath family", "error": "dr.while_loop(): encountered an exception (see above)."}

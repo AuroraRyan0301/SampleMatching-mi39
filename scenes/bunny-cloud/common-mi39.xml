@@ -1,0 +1,67 @@
+<scene version="2.0.0">
+
+    <default name="integrator" value="volpath"/>
+    <default name="spp" value="64"/>
+	<default name="resy" value="576" />
+	<default name="resx" value="768" />
+    <default name="fov" value="40.0"/>
+    <default name="pixel_format" value="rgb"/>
+    <default name="max_depth" value="64"/>
+    <default name="rr_depth" value="64"/>
+    <default name="medium_albedo" value="0.4, 0.8, 0.6"/>
+    <default name="envmap_filename" value="/path/to/SMmi39/data/scenes/common/textures/high_sun.exr"/>
+    <default name="envmap_y_rotation" value="0"/>
+    <default name="envmap_z_rotation" value="0"/>
+    <default name="envmap_x_rotation" value="0"/>
+    <default name="envmap_scale" value="4"/>
+
+    <integrator type="$integrator">
+        <integer name="max_depth" value="$max_depth"/>
+        <integer name="rr_depth" value="$rr_depth"/>
+        <boolean name="hide_emitters" value="false"/>
+    </integrator>
+
+    <film type="hdrfilm" id="film">
+        <integer name="width" value="$resx"/>
+        <integer name="height" value="$resy"/>
+        <rfilter type="box"/>
+        <string  name="pixel_format" value="$pixel_format"/>
+    </film>
+    <sampler type="independent" id="sampler">
+        <integer name="sample_count" value="$spp"/>
+    </sampler>
+
+    <!-- Include sensors first so that the ref images' indexing is preserved -->
+    <include filename="./sensors-mi39.xml"/>
+
+    <!-- <sensor type="perspective">
+        <string name="fov_axis" value="smaller"/>
+        <float name="fov" value="$fov"/>
+        <transform name="to_world">
+            <rotate x="1" angle="-161.43855612809648"/>
+            <rotate y="1" angle="-43.812299657465566"/>
+            <rotate z="1" angle="179.98857127228572"/>
+            <translate value="2.074610 2.028644 2.286010"/>
+        </transform>
+        <ref id="sampler"/>
+        <ref id="film"/>
+    </sensor> -->
+
+    <path value="../common"/>
+
+    <!-- <emitter type="envmap">
+        <string name="filename" value="$envmap_filename"/>
+		<transform name="to_world">
+			<matrix value="0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+    </emitter> -->
+    <emitter type="envmap">
+        <string name="filename" value="$envmap_filename"/>
+        <transform name="to_world">
+            <rotate x="1" angle="$envmap_x_rotation"/>
+            <rotate y="1" angle="$envmap_y_rotation"/>
+            <rotate z="1" angle="$envmap_z_rotation"/>
+        </transform>
+        <float name="scale" value="$envmap_scale"/>
+    </emitter>
+</scene>

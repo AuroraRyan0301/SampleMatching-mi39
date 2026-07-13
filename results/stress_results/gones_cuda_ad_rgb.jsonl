@@ -1,0 +1,4 @@
+{"cell": "gones/zeros_quad_gones", "status": "PASS", "ad": "-5.7087e+03", "se": "2.8e+00", "fd": "-5.7153e+03", "ratio": "0.999"}
+{"cell": "gones/zeros_lin_gones", "status": "PASS", "ad": "-5.7106e+03", "se": "3.2e+00", "fd": "-5.7153e+03", "ratio": "0.999"}
+{"cell": "gones/zeros_k4_gones", "status": "PASS", "ad": "-5.7051e+03", "se": "2.7e+00", "fd": "-5.7153e+03", "ratio": "0.998"}
+{"cell": "gones/zeros_prb_gones", "status": "WARN", "ad": "-1.2946e+04", "se": "8.1e+00", "fd": "-5.7153e+03", "ratio": "2.265"}

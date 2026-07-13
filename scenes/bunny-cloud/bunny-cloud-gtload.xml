@@ -1,0 +1,54 @@
+<scene version="2.0.0">
+    <default name="medium_filename" value="python"/>
+    <default name="albedo_filename" value="python"/>
+    <default name="emission_filename" value="python"/>
+    <default name="medium_fixed_max" value="false"/>
+    <default name="medium_scale" value="60"/>
+    <default name="majorant_resolution_factor" value="8"/>
+    <default name="density_activation" value="none"/>
+    <default name="majorant_factor" value="1.3"/>
+
+    <include filename="./common.xml"/>
+    <boolean name="use_bbox_fast_path" value="true"/>
+
+    <medium id="medium1" type="heterogeneous">
+        <float name="scale" value="$medium_scale"/>
+        <string name="density_activation" value="$density_activation"/>
+        <float name="majorant_factor" value="$majorant_factor"/>
+
+        <phase type="isotropic" />
+        <volume name="sigma_t" type="gridvolume">
+            <boolean name="accel" value="false"/>
+            <transform name="to_world">
+                <scale value="2.0, 2.0, 2.0"/>
+                <translate value="-1.0, -1.0, -1.0"/>
+            </transform>
+            <boolean name="use_grid_bbox" value="false"/>
+            <boolean name="fixed_max" value="$medium_fixed_max"/>
+            <string name="filename" value="$medium_filename"/>
+        </volume>
+
+        <volume name="albedo" type="gridvolume">
+            <boolean name="accel" value="false"/>
+            <transform name="to_world">
+                <scale value="2.0, 2.0, 2.0"/>
+                <translate value="-1.0, -1.0, -1.0"/>
+            </transform>
+            <boolean name="use_grid_bbox" value="false"/>
+            <string name="filename" value="$albedo_filename"/>
+        </volume>
+
+        <boolean name="sample_emitters" value="false"/>
+        <boolean name="has_spectral_extinction" value="false"/>
+        <integer name="majorant_resolution_factor" value="$majorant_resolution_factor"/>
+    </medium>
+    <shape type="obj">
+        <string name="filename" value="meshes/cube_unit.obj"/>
+        <bsdf type="null"/>
+        <ref id="medium1" name="interior"/>
+        <transform name="to_world">
+            <scale value="2.0, 2.0, 2.0"/>
+            <translate value="-1.0, -1.0, -1.0"/>
+        </transform>
+    </shape>
+</scene>

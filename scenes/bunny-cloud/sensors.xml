@@ -1,0 +1,578 @@
+<scene version="2.0.0">
+
+    <sensor type="perspective">
+        <float name="fov" value="40.000000"/>
+        <transform name="to_world">
+            <lookat origin="0.000000, 0.000000, 4.000000"
+                    target="0.000000, 0.000000, 0.000000"
+                    up    ="0.00, 1.00, 0.00"/>
+        </transform>
+    </sensor>
+
+    <sensor type="perspective">
+        <float name="fov" value="40.000000"/>
+        <transform name="to_world">
+            <lookat origin="-0.737276, -0.675405, 3.873016"
+                    target="0.000000, 0.000000, 0.000000"
+                    up    ="0.00, 1.00, 0.00"/>
+        </transform>
+    </sensor>
+
+    <sensor type="perspective">
+        <float name="fov" value="40.000000"/>
+        <transform name="to_world">
+            <lookat origin="0.122622, 1.397215, 3.746032"
+                    target="0.000000, 0.000000, 0.000000"
+                    up    ="0.00, 1.00, 0.00"/>
+        </transform>
+    </sensor>
+
+    <sensor type="perspective">
+        <float name="fov" value="40.000000"/>
+        <transform name="to_world">
+            <lookat origin="1.036580, -1.352034, 3.619048"
+                    target="0.000000, 0.000000, 0.000000"
+                    up    ="0.00, 1.00, 0.00"/>
+        </transform>
+    </sensor>
+
+    <sensor type="perspective">
+        <float name="fov" value="40.000000"/>
+        <transform name="to_world">
+            <lookat origin="-1.920947, 0.339788, 3.492063"
+                    target="0.000000, 0.000000, 0.000000"
+                    up    ="0.00, 1.00, 0.00"/>
+        </transform>
+    </sensor>
+
+    <sensor type="perspective">
+        <float name="fov" value="40.000000"/>
+        <transform name="to_world">
+            <lookat origin="1.824589, 1.160654, 3.365079"
+                    target="0.000000, 0.000000, 0.000000"
+                    up    ="0.00, 1.00, 0.00"/>
+        </transform>
+    </sensor>
+
+    <sensor type="perspective">
+        <float name="fov" value="40.000000"/>
+        <transform name="to_world">
+            <lookat origin="-0.609641, -2.267835, 3.238095"
+                    target="0.000000, 0.000000, 0.000000"
+                    up    ="0.00, 1.00, 0.00"/>
+        </transform>
+    </sensor>
+
+    <sensor type="perspective">
+        <float name="fov" value="40.000000"/>
+        <transform name="to_world">
+            <lookat origin="-1.158793, 2.231185, 3.111111"
+                    target="0.000000, 0.000000, 0.000000"
+                    up    ="0.00, 1.00, 0.00"/>
+        </transform>
+    </sensor>
+
+    <sensor type="perspective">
+        <float name="fov" value="40.000000"/>
+        <transform name="to_world">
+            <lookat origin="2.502015, -0.913732, 2.984127"
+                    target="0.000000, 0.000000, 0.000000"
+                    up    ="0.00, 1.00, 0.00"/>
+        </transform>
+    </sensor>
+
+    <sensor type="perspective">
+        <float name="fov" value="40.000000"/>
+        <transform name="to_world">
+            <lookat origin="-2.587629, -1.068135, 2.857143"
+                    target="0.000000, 0.000000, 0.000000"
+                    up    ="0.00, 1.00, 0.00"/>
+        </transform>
+    </sensor>
+
+    <sensor type="perspective">
+        <float name="fov" value="40.000000"/>
+        <transform name="to_world">
+            <lookat origin="1.239069, 2.647818, 2.730159"
+                    target="0.000000, 0.000000, 0.000000"
+                    up    ="0.00, 1.00, 0.00"/>
+        </transform>
+    </sensor>
+
+    <sensor type="perspective">
+        <float name="fov" value="40.000000"/>
+        <transform name="to_world">
+            <lookat origin="0.908931, -2.897814, 2.603175"
+                    target="0.000000, 0.000000, 0.000000"
+                    up    ="0.00, 1.00, 0.00"/>
+        </transform>
+    </sensor>
+
+    <sensor type="perspective">
+        <float name="fov" value="40.000000"/>
+        <transform name="to_world">
+            <lookat origin="-2.717986, 1.575129, 2.476190"
+                    target="0.000000, 0.000000, 0.000000"
+                    up    ="0.00, 1.00, 0.00"/>
+        </transform>
+    </sensor>
+
+    <sensor type="perspective">
+        <float name="fov" value="40.000000"/>
+        <transform name="to_world">
+            <lookat origin="3.161961, 0.695148, 2.349206"
+                    target="0.000000, 0.000000, 0.000000"
+                    up    ="0.00, 1.00, 0.00"/>
+        </transform>
+    </sensor>
+
+    <sensor type="perspective">
+        <float name="fov" value="40.000000"/>
+        <transform name="to_world">
+            <lookat origin="-1.912833, -2.720808, 2.222222"
+                    target="0.000000, 0.000000, 0.000000"
+                    up    ="0.00, 1.00, 0.00"/>
+        </transform>
+    </sensor>
+
+    <sensor type="perspective">
+        <float name="fov" value="40.000000"/>
+        <transform name="to_world">
+            <lookat origin="-0.437880, 3.379088, 2.095238"
+                    target="0.000000, 0.000000, 0.000000"
+                    up    ="0.00, 1.00, 0.00"/>
+        </transform>
+    </sensor>
+
+    <sensor type="perspective">
+        <float name="fov" value="40.000000"/>
+        <transform name="to_world">
+            <lookat origin="2.662689, -2.244117, 1.968254"
+                    target="0.000000, 0.000000, 0.000000"
+                    up    ="0.00, 1.00, 0.00"/>
+        </transform>
+    </sensor>
+
+    <sensor type="perspective">
+        <float name="fov" value="40.000000"/>
+        <transform name="to_world">
+            <lookat origin="-3.547985, -0.146720, 1.841270"
+                    target="0.000000, 0.000000, 0.000000"
+                    up    ="0.00, 1.00, 0.00"/>
+        </transform>
+    </sensor>
+
+    <sensor type="perspective">
+        <float name="fov" value="40.000000"/>
+        <transform name="to_world">
+            <lookat origin="2.561732, 2.549265, 1.714286"
+                    target="0.000000, 0.000000, 0.000000"
+                    up    ="0.00, 1.00, 0.00"/>
+        </transform>
+    </sensor>
+
+    <sensor type="perspective">
+        <float name="fov" value="40.000000"/>
+        <transform name="to_world">
+            <lookat origin="-0.169595, -3.667657, 1.587302"
+                    target="0.000000, 0.000000, 0.000000"
+                    up    ="0.00, 1.00, 0.00"/>
+        </transform>
+    </sensor>
+
+    <sensor type="perspective">
+        <float name="fov" value="40.000000"/>
+        <transform name="to_world">
+            <lookat origin="-2.385940, 2.859154, 1.460317"
+                    target="0.000000, 0.000000, 0.000000"
+                    up    ="0.00, 1.00, 0.00"/>
+        </transform>
+    </sensor>
+
+    <sensor type="perspective">
+        <float name="fov" value="40.000000"/>
+        <transform name="to_world">
+            <lookat origin="3.737557, -0.502883, 1.333333"
+                    target="0.000000, 0.000000, 0.000000"
+                    up    ="0.00, 1.00, 0.00"/>
+        </transform>
+    </sensor>
+
+    <sensor type="perspective">
+        <float name="fov" value="40.000000"/>
+        <transform name="to_world">
+            <lookat origin="-3.130552, -2.178157, 1.206349"
+                    target="0.000000, 0.000000, 0.000000"
+                    up    ="0.00, 1.00, 0.00"/>
+        </transform>
+    </sensor>
+
+    <sensor type="perspective">
+        <float name="fov" value="40.000000"/>
+        <transform name="to_world">
+            <lookat origin="0.845359, 3.757704, 1.079365"
+                    target="0.000000, 0.000000, 0.000000"
+                    up    ="0.00, 1.00, 0.00"/>
+        </transform>
+    </sensor>
+
+    <sensor type="perspective">
+        <float name="fov" value="40.000000"/>
+        <transform name="to_world">
+            <lookat origin="1.931531, -3.370780, 0.952381"
+                    target="0.000000, 0.000000, 0.000000"
+                    up    ="0.00, 1.00, 0.00"/>
+        </transform>
+    </sensor>
+
+    <sensor type="perspective">
+        <float name="fov" value="40.000000"/>
+        <transform name="to_world">
+            <lookat origin="-3.728757, 1.189575, 0.825397"
+                    target="0.000000, 0.000000, 0.000000"
+                    up    ="0.00, 1.00, 0.00"/>
+        </transform>
+    </sensor>
+
+    <sensor type="perspective">
+        <float name="fov" value="40.000000"/>
+        <transform name="to_world">
+            <lookat origin="3.575386, 1.651919, 0.698413"
+                    target="0.000000, 0.000000, 0.000000"
+                    up    ="0.00, 1.00, 0.00"/>
+        </transform>
+    </sensor>
+
+    <sensor type="perspective">
+        <float name="fov" value="40.000000"/>
+        <transform name="to_world">
+            <lookat origin="-1.528406, -3.652047, 0.571429"
+                    target="0.000000, 0.000000, 0.000000"
+                    up    ="0.00, 1.00, 0.00"/>
+        </transform>
+    </sensor>
+
+    <sensor type="perspective">
+        <float name="fov" value="40.000000"/>
+        <transform name="to_world">
+            <lookat origin="-1.345426, 3.740628, 0.444444"
+                    target="0.000000, 0.000000, 0.000000"
+                    up    ="0.00, 1.00, 0.00"/>
+        </transform>
+    </sensor>
+
+    <sensor type="perspective">
+        <float name="fov" value="40.000000"/>
+        <transform name="to_world">
+            <lookat origin="3.529589, -1.855053, 0.317460"
+                    target="0.000000, 0.000000, 0.000000"
+                    up    ="0.00, 1.00, 0.00"/>
+        </transform>
+    </sensor>
+
+    <sensor type="perspective">
+        <float name="fov" value="40.000000"/>
+        <transform name="to_world">
+            <lookat origin="-3.863492, -1.018404, 0.190476"
+                    target="0.000000, 0.000000, 0.000000"
+                    up    ="0.00, 1.00, 0.00"/>
+        </transform>
+    </sensor>
+
+    <sensor type="perspective">
+        <float name="fov" value="40.000000"/>
+        <transform name="to_world">
+            <lookat origin="2.163078, 3.364084, 0.063492"
+                    target="0.000000, 0.000000, 0.000000"
+                    up    ="0.00, 1.00, 0.00"/>
+        </transform>
+    </sensor>
+
+    <sensor type="perspective">
+        <float name="fov" value="40.000000"/>
+        <transform name="to_world">
+            <lookat origin="0.677419, -3.941709, -0.063492"
+                    target="0.000000, 0.000000, 0.000000"
+                    up    ="0.00, 1.00, 0.00"/>
+        </transform>
+    </sensor>
+
+    <sensor type="perspective">
+        <float name="fov" value="40.000000"/>
+        <transform name="to_world">
+            <lookat origin="-3.158905, 2.446434, -0.190476"
+                    target="0.000000, 0.000000, 0.000000"
+                    up    ="0.00, 1.00, 0.00"/>
+        </transform>
+    </sensor>
+
+    <sensor type="perspective">
+        <float name="fov" value="40.000000"/>
+        <transform name="to_world">
+            <lookat origin="3.973768, 0.329219, -0.317460"
+                    target="0.000000, 0.000000, 0.000000"
+                    up    ="0.00, 1.00, 0.00"/>
+        </transform>
+    </sensor>
+
+    <sensor type="perspective">
+        <float name="fov" value="40.000000"/>
+        <transform name="to_world">
+            <lookat origin="-2.699498, -2.918078, -0.444444"
+                    target="0.000000, 0.000000, 0.000000"
+                    up    ="0.00, 1.00, 0.00"/>
+        </transform>
+    </sensor>
+
+    <sensor type="perspective">
+        <float name="fov" value="40.000000"/>
+        <transform name="to_world">
+            <lookat origin="0.019313, 3.958926, -0.571429"
+                    target="0.000000, 0.000000, 0.000000"
+                    up    ="0.00, 1.00, 0.00"/>
+        </transform>
+    </sensor>
+
+    <sensor type="perspective">
+        <float name="fov" value="40.000000"/>
+        <transform name="to_world">
+            <lookat origin="2.646257, -2.917112, -0.698413"
+                    target="0.000000, 0.000000, 0.000000"
+                    up    ="0.00, 1.00, 0.00"/>
+        </transform>
+    </sensor>
+
+    <sensor type="perspective">
+        <float name="fov" value="40.000000"/>
+        <transform name="to_world">
+            <lookat origin="-3.897212, 0.361193, -0.825397"
+                    target="0.000000, 0.000000, 0.000000"
+                    up    ="0.00, 1.00, 0.00"/>
+        </transform>
+    </sensor>
+
+    <sensor type="perspective">
+        <float name="fov" value="40.000000"/>
+        <transform name="to_world">
+            <lookat origin="3.094607, 2.348697, -0.952381"
+                    target="0.000000, 0.000000, 0.000000"
+                    up    ="0.00, 1.00, 0.00"/>
+        </transform>
+    </sensor>
+
+    <sensor type="perspective">
+        <float name="fov" value="40.000000"/>
+        <transform name="to_world">
+            <lookat origin="-0.689377, -3.789424, -1.079365"
+                    target="0.000000, 0.000000, 0.000000"
+                    up    ="0.00, 1.00, 0.00"/>
+        </transform>
+    </sensor>
+
+    <sensor type="perspective">
+        <float name="fov" value="40.000000"/>
+        <transform name="to_world">
+            <lookat origin="-2.031227, 3.227823, -1.206349"
+                    target="0.000000, 0.000000, 0.000000"
+                    up    ="0.00, 1.00, 0.00"/>
+        </transform>
+    </sensor>
+
+    <sensor type="perspective">
+        <float name="fov" value="40.000000"/>
+        <transform name="to_world">
+            <lookat origin="3.637120, -0.996784, -1.333333"
+                    target="0.000000, 0.000000, 0.000000"
+                    up    ="0.00, 1.00, 0.00"/>
+        </transform>
+    </sensor>
+
+    <sensor type="perspective">
+        <float name="fov" value="40.000000"/>
+        <transform name="to_world">
+            <lookat origin="-3.313108, -1.700232, -1.460317"
+                    target="0.000000, 0.000000, 0.000000"
+                    up    ="0.00, 1.00, 0.00"/>
+        </transform>
+    </sensor>
+
+    <sensor type="perspective">
+        <float name="fov" value="40.000000"/>
+        <transform name="to_world">
+            <lookat origin="1.276302, 3.442605, -1.587302"
+                    target="0.000000, 0.000000, 0.000000"
+                    up    ="0.00, 1.00, 0.00"/>
+        </transform>
+    </sensor>
+
+    <sensor type="perspective">
+        <float name="fov" value="40.000000"/>
+        <transform name="to_world">
+            <lookat origin="1.362644, -3.347301, -1.714286"
+                    target="0.000000, 0.000000, 0.000000"
+                    up    ="0.00, 1.00, 0.00"/>
+        </transform>
+    </sensor>
+
+    <sensor type="perspective">
+        <float name="fov" value="40.000000"/>
+        <transform name="to_world">
+            <lookat origin="-3.208898, 1.520757, -1.841270"
+                    target="0.000000, 0.000000, 0.000000"
+                    up    ="0.00, 1.00, 0.00"/>
+        </transform>
+    </sensor>
+
+    <sensor type="perspective">
+        <float name="fov" value="40.000000"/>
+        <transform name="to_world">
+            <lookat origin="3.327670, 1.025956, -1.968254"
+                    target="0.000000, 0.000000, 0.000000"
+                    up    ="0.00, 1.00, 0.00"/>
+        </transform>
+    </sensor>
+
+    <sensor type="perspective">
+        <float name="fov" value="40.000000"/>
+        <transform name="to_world">
+            <lookat origin="-1.722828, -2.939701, -2.095238"
+                    target="0.000000, 0.000000, 0.000000"
+                    up    ="0.00, 1.00, 0.00"/>
+        </transform>
+    </sensor>
+
+    <sensor type="perspective">
+        <float name="fov" value="40.000000"/>
+        <transform name="to_world">
+            <lookat origin="-0.698284, 3.251788, -2.222222"
+                    target="0.000000, 0.000000, 0.000000"
+                    up    ="0.00, 1.00, 0.00"/>
+        </transform>
+    </sensor>
+
+    <sensor type="perspective">
+        <float name="fov" value="40.000000"/>
+        <transform name="to_world">
+            <lookat origin="2.639340, -1.874864, -2.349206"
+                    target="0.000000, 0.000000, 0.000000"
+                    up    ="0.00, 1.00, 0.00"/>
+        </transform>
+    </sensor>
+
+    <sensor type="perspective">
+        <float name="fov" value="40.000000"/>
+        <transform name="to_world">
+            <lookat origin="-3.117298, -0.388503, -2.476190"
+                    target="0.000000, 0.000000, 0.000000"
+                    up    ="0.00, 1.00, 0.00"/>
+        </transform>
+    </sensor>
+
+    <sensor type="perspective">
+        <float name="fov" value="40.000000"/>
+        <transform name="to_world">
+            <lookat origin="1.968503, 2.312678, -2.603175"
+                    target="0.000000, 0.000000, 0.000000"
+                    up    ="0.00, 1.00, 0.00"/>
+        </transform>
+    </sensor>
+
+    <sensor type="perspective">
+        <float name="fov" value="40.000000"/>
+        <transform name="to_world">
+            <lookat origin="0.106538, -2.921452, -2.730159"
+                    target="0.000000, 0.000000, 0.000000"
+                    up    ="0.00, 1.00, 0.00"/>
+        </transform>
+    </sensor>
+
+    <sensor type="perspective">
+        <float name="fov" value="40.000000"/>
+        <transform name="to_world">
+            <lookat origin="-1.964949, 1.993918, -2.857143"
+                    target="0.000000, 0.000000, 0.000000"
+                    up    ="0.00, 1.00, 0.00"/>
+        </transform>
+    </sensor>
+
+    <sensor type="perspective">
+        <float name="fov" value="40.000000"/>
+        <transform name="to_world">
+            <lookat origin="2.660166, -0.136016, -2.984127"
+                    target="0.000000, 0.000000, 0.000000"
+                    up    ="0.00, 1.00, 0.00"/>
+        </transform>
+    </sensor>
+
+    <sensor type="perspective">
+        <float name="fov" value="40.000000"/>
+        <transform name="to_world">
+            <lookat origin="-1.938164, -1.601408, -3.111111"
+                    target="0.000000, 0.000000, 0.000000"
+                    up    ="0.00, 1.00, 0.00"/>
+        </transform>
+    </sensor>
+
+    <sensor type="perspective">
+        <float name="fov" value="40.000000"/>
+        <transform name="to_world">
+            <lookat origin="0.324495, 2.325821, -3.238095"
+                    target="0.000000, 0.000000, 0.000000"
+                    up    ="0.00, 1.00, 0.00"/>
+        </transform>
+    </sensor>
+
+    <sensor type="perspective">
+        <float name="fov" value="40.000000"/>
+        <transform name="to_world">
+            <lookat origin="1.226377, -1.781079, -3.365079"
+                    target="0.000000, 0.000000, 0.000000"
+                    up    ="0.00, 1.00, 0.00"/>
+        </transform>
+    </sensor>
+
+    <sensor type="perspective">
+        <float name="fov" value="40.000000"/>
+        <transform name="to_world">
+            <lookat origin="-1.901090, 0.437436, -3.492063"
+                    target="0.000000, 0.000000, 0.000000"
+                    up    ="0.00, 1.00, 0.00"/>
+        </transform>
+    </sensor>
+
+    <sensor type="perspective">
+        <float name="fov" value="40.000000"/>
+        <transform name="to_world">
+            <lookat origin="1.482299, 0.839811, -3.619048"
+                    target="0.000000, 0.000000, 0.000000"
+                    up    ="0.00, 1.00, 0.00"/>
+        </transform>
+    </sensor>
+
+    <sensor type="perspective">
+        <float name="fov" value="40.000000"/>
+        <transform name="to_world">
+            <lookat origin="-0.432808, -1.334138, -3.746032"
+                    target="0.000000, 0.000000, 0.000000"
+                    up    ="0.00, 1.00, 0.00"/>
+        </transform>
+    </sensor>
+
+    <sensor type="perspective">
+        <float name="fov" value="40.000000"/>
+        <transform name="to_world">
+            <lookat origin="-0.414937, 0.909712, -3.873016"
+                    target="0.000000, 0.000000, 0.000000"
+                    up    ="0.00, 1.00, 0.00"/>
+        </transform>
+    </sensor>
+
+    <sensor type="perspective">
+        <float name="fov" value="40.000000"/>
+        <transform name="to_world">
+            <lookat origin="0.000000, 0.000000, -4.000000"
+                    target="0.000000, 0.000000, 0.000000"
+                    up    ="0.00, 1.00, 0.00"/>
+        </transform>
+    </sensor>
+</scene>

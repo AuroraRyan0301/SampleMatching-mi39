@@ -1,0 +1,12 @@
+{"cell": "depthrr/deep_rroff_quad_primal", "status": "PASS", "rel": "1.41e-04", "z": "1.3"}
+{"cell": "depthrr/deep_rroff_quad_gsigma", "status": "PASS", "ad": "-1.0617e+03", "se": "4.5e+00", "fd": "-1.0664e+03", "ratio": "0.996"}
+{"cell": "depthrr/deep_rroff_lin_primal", "status": "PASS", "rel": "1.41e-04", "z": "1.3"}
+{"cell": "depthrr/deep_rroff_lin_gsigma", "status": "PASS", "ad": "-1.0618e+03", "se": "8.1e+00", "fd": "-1.0664e+03", "ratio": "0.996"}
+{"cell": "depthrr/deep_rroff_k4_primal", "status": "PASS", "rel": "1.41e-04", "z": "1.3"}
+{"cell": "depthrr/deep_rroff_k4_gsigma", "status": "PASS", "ad": "-1.0572e+03", "se": "4.4e+00", "fd": "-1.0664e+03", "ratio": "0.991"}
+{"cell": "depthrr/deep_rron_quad_primal", "status": "PASS", "rel": "1.41e-04", "z": "1.4"}
+{"cell": "depthrr/deep_rron_quad_gsigma", "status": "PASS", "ad": "-1.0534e+03", "se": "7.1e+00", "fd": "-1.0664e+03", "ratio": "0.988"}
+{"cell": "depthrr/deep_rron_lin_primal", "status": "PASS", "rel": "1.41e-04", "z": "1.4"}
+{"cell": "depthrr/deep_rron_lin_gsigma", "status": "PASS", "ad": "-1.0472e+03", "se": "9.3e+00", "fd": "-1.0664e+03", "ratio": "0.982"}
+{"cell": "depthrr/deep_rron_k4_primal", "status": "PASS", "rel": "1.41e-04", "z": "1.4"}
+{"cell": "depthrr/deep_rron_k4_gsigma", "status": "PASS", "ad": "-1.0428e+03", "se": "8.6e+00", "fd": "-1.0664e+03", "ratio": "0.978"}
